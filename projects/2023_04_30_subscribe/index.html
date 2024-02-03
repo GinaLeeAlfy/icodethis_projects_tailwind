@@ -5,34 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Subscribe</title>
     <link rel="stylesheet" href="./output.css" />
+    <script
+      src="https://kit.fontawesome.com/e7d2ae1e33.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="flex min-h-screen items-center justify-center bg-gray-200">
     <div
-      class="w-full space-y-4 rounded-lg bg-white p-4 text-center shadow-lg sm:max-w-[640px] sm:p-10 md:max-w-3xl"
+      class="w-full space-y-6 rounded-lg bg-white px-4 py-6 text-center shadow-lg sm:max-w-[640px] sm:px-20 sm:py-14 md:max-w-3xl md:px-28 md:py-20"
     >
       <h1 class="text-3xl font-bold">Let's keep in touch</h1>
       <div>
         <p>Subscribe to keep up with fresh news and exciting updates.</p>
         <p>We promise not to spam you!</p>
       </div>
-      <div class="flex space-x-2">
+      <div class="flex flex-wrap gap-3">
         <input
           type="email"
           placeholder="Enter your email address"
-          class="basis-2/3 rounded border-2 border-gray-400 px-2 py-1 placeholder:text-black"
+          class="w-full rounded border-2 border-gray-400 px-6 py-4 placeholder:text-black sm:basis-2/3 sm:px-4 sm:py-2"
           required
           id="email"
         />
         <label for="email" class="hidden">Email</label>
         <button
-          class="flex-grow rounded border-2 border-blue-500 bg-blue-500 px-2 py-1 text-white shadow-md shadow-blue-200 hover:bg-white hover:text-blue-500"
+          class="flex flex-grow items-center justify-center gap-1 rounded border-2 border-blue-500 bg-blue-500 px-4 py-2 text-white shadow-md shadow-blue-200 hover:bg-white hover:text-blue-500"
         >
-          Send ->
+          Send <span class="mb-1 text-4xl">&#8594;</span>
         </button>
       </div>
-      <div class="flex gap-2">
-        <input type="checkbox" id="checkbox" class="max-h-16 max-w-16" />
-        <label for="checkbox" class="max-w-[60%] text-left"
+      <div class="flex items-start gap-2">
+        <input
+          type="checkbox"
+          id="checkbox"
+          class="min-h-5 min-w-5 cursor-pointer accent-blue-500"
+        />
+        <label for="checkbox" class="cursor-pointer text-left sm:max-w-[60%]"
           >I agree to my email address being stored and used to receive monthly
           newsletter.</label
         >
