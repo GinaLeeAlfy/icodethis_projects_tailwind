@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="flex min-h-screen items-center justify-center bg-gray-200">
+    <div
+      class="container flex flex-wrap-reverse overflow-hidden rounded-lg border-4 border-sky-700 bg-white shadow-lg lg:aspect-video lg:flex-nowrap lg:space-y-6"
+    >
+      <section
+        class="w-full bg-gradient-to-b from-sky-100 to-gray-400 pb-6 pr-4 pt-4 sm:pb-14 sm:pr-20 sm:pt-7 md:pb-20 md:pr-28 md:pt-10 lg:w-[70%]"
+      >
+        <div class="space-y-4 rounded bg-white px-4 py-6">
+          <h1 class="text-3xl font-bold text-sky-600">logo</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+            ratione unde modi fuga alias nulla! Repellendus sunt blanditiis
+            explicabo eius perspiciatis aut, numquam doloribus quod adipisci
+            excepturi in, possimus enim doloremque eligendi error facere! Est
+            laboriosam ipsa assumenda, nemo aperiam obcaecati voluptatum
+            blanditiis a dolores earum numquam consequatur culpa! Laborum
+            consequatur soluta, mollitia velit, eaque ex deleniti maxime
+            consectetur ut fuga illum expedita repellat aut!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Exercitationem, fuga consequuntur, veniam voluptates porro
+            asperiores sed dicta tempora quibusdam, molestias minus quo! Quis
+            debitis blanditiis suscipit totam, tempora culpa quibusdam cum?
+          </p>
+        </div>
+      </section>
+      <section class="flex w-full flex-col gap-4 px-4 py-6 lg:basis-1/3">
+        <button class="self-end">X</button>
+        <div class="flex flex-wrap gap-3">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="w-full rounded border-2 border-gray-400 px-6 py-4 placeholder:text-black sm:basis-2/3 sm:px-4 sm:py-2"
+            required
+            id="email"
+          />
+          <label for="email" class="hidden">Email</label>
+          <button
+            class="flex flex-grow items-center justify-center gap-1 rounded border-2 border-blue-500 bg-blue-500 px-4 py-2 text-white shadow-md shadow-blue-200 hover:bg-white hover:text-blue-500"
+          >
+            Send <span class="mb-1 text-4xl">&#8594;</span>
+          </button>
+        </div>
+        <div class="flex items-start gap-2">
+          <input
+            type="checkbox"
+            id="checkbox"
+            class="min-h-5 min-w-5 cursor-pointer accent-blue-500"
+          />
+          <label for="checkbox" class="cursor-pointer text-left sm:max-w-[60%]"
+            >I agree to my email address being stored and used to receive
+            monthly newsletter.</label
+          >
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
